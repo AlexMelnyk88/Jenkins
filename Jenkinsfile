@@ -21,5 +21,11 @@ pipeline {
                 echo 'Deploying the application...'
             }
         }
+
+        stage('Post test') {
+            steps {
+                echo Post action......'
+            }
+        }
     }
 }

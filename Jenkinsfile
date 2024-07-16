@@ -24,7 +24,7 @@ pipeline {
 
         stage('Post test') {
             steps {
-                echo 'Post action1111111'
+                echo 'Post action111111122222'
             }
         }
     }
